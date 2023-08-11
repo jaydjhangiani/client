@@ -1,0 +1,42 @@
+:root {
+  --primary: #004835;
+  --secondary: #f3a108;
+}
+
+.bg-primary {
+  background-color: var(--primary) !important;
+}
+
+.bg-secondary {
+  background-color: var(--secondary) !important;
+}
+
+.text-primary {
+  color: var(--primary) !important;
+}
+
+.text-secondary {
+  color: var(--secondary) !important;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.success-bg {
+  background-color: #1bcc1b !important;
+  color: #fff !important;
+  border-radius: 3px;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-top: -5px;
+}
+
+.error-bg {
+  background-color: #c61a1a !important;
+  color: #fff !important;
+  border-radius: 3px;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-top: -5px;
+}
